@@ -12,7 +12,7 @@ import Login from './pages/Login'
 const App = () => {
   return (
     <Router>
-      <div className='min-h-screen flex flex-col justify-between bg-[#141414] pt-4'>
+      <div className='min-h-screen flex flex-col justify-between bg-[#141414]'>
         <Header/>
         <Routes>
           <Route path='/' element={<Home/>}/>
