@@ -37,3 +37,7 @@ main{
         text-shadow: 0 0 20px #b0ff97;
     }
 }
+
+.header-btns{
+    padding: 0px 15px;
+}
