@@ -41,3 +41,14 @@ main{
 .header-btns{
     padding: 0px 15px;
 }
+
+.titulo{
+    background-image:linear-gradient(to right, #3cff00, cyan, #3cff00);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+}
+
+.titulo:hover{
+    animation: acender 0.5s forwards;
+}
