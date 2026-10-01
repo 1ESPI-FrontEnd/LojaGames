@@ -6,7 +6,7 @@ const GameCard = ({titulo, preco, imagem}) => {
       <img src={imagem} alt={titulo} className='w-full h-[250px] object-cover'/>
 
       <article className='p-4 text-center'>
-        <h2 className='text-xl text-[#3cff00] font-bold mb-3 uppercase'></h2>
+        <h2 className='text-xl text-[#3cff00] font-bold mb-3 uppercase'>{titulo}</h2>
 
         <p className='text-white text-2xl font-bold mb-4'>{preco}</p>
 
