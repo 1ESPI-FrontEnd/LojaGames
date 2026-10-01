@@ -1,9 +1,19 @@
 import React from 'react'
 
-const GameCard = () => {
+const GameCard = ({titulo, preco, imagem}) => {
   return (
-    <div>
-      
+    <div className='bg-black rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:border-4 hover:border-[#3cff00]'>
+      <img src={imagem} alt={titulo} className='w-full h-[250px] object-cover'/>
+
+      <article className='p-4 text-center'>
+        <h2 className='text-xl text-[#3cff00] font-bold mb-3 uppercase'></h2>
+
+        <p className='text-white text-2xl font-bold mb-4'>{preco}</p>
+
+        <button className='bg-linear-to-r from-[#3cff00] to-cyan-600 w-[50%] py-4 px-4 rounded-[20px] border-none cursor-pointer font-semibold transition-transform duration-300 hover:bg-green-50 hover:text-white hover:scale-105'>
+          Comprar
+        </button>
+      </article>
     </div>
   )
 }
